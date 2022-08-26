@@ -1,0 +1,47 @@
+package chap09_interface;
+
+// 인터페이스의 내용을 가져오고 싶을때 extends 통해 가져올수있다
+// 인터페이스의 경우는 생성자가 없기때문에 여러개의 인터페이스를 상속받을 수 있다
+public interface CarOptionInterface extends CarInterface, Days{
+	public void carDrive();
+	
+	public default void RestDay(int day) {
+		// day가 어떤 값이 들어오든지 일~토를 출력하려고 함
+		// 1, 8 15이 들어오면 1로 생각 > 일요일
+		// 7, 14가 들어오면 7로 생각 > 토요일 출력 
+		// day의 값을 어떻게 연산하여 활용할 수 있는지 생각해주세요
+		// 힌트) % (나머지 연산자 사용)
+		String date = "";
+		int daySeven;
+		if (day%7 == 0) {
+			daySeven =7;
+		} else {
+			daySeven = day%7;
+		}
+		// 삼항연산자로 작성하기
+		int daySeven2 = (day%7 == 0) ? 7 : day%7 ;
+		switch (daySeven2) {
+		case SUNDAY:
+			date = "일요일";
+			break;
+		case MONDAY:
+			date = "월요일";
+			break;
+		case TUESDAY:
+			date = "화요일";
+			break;
+		case WEDNESDAY:
+			date = "수요일";
+			break;
+		case THURSDAY:
+			date = "목요일";
+			break;
+		case FRIDAY:
+			date = "금요일";
+			break;
+		case SATURDAY:
+			date = "토요일";
+			break;
+		}System.out.println(date+"입니다");
+	}
+}

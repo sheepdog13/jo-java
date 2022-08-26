@@ -1,0 +1,12 @@
+package practice;
+
+public class BoardGame {
+	private int peopleNum;
+	
+	BoardGame(){
+		this.peopleNum = 0;
+	}
+	BoardGame(int peopleNum){
+		this.peopleNum = peopleNum;
+	}
+}

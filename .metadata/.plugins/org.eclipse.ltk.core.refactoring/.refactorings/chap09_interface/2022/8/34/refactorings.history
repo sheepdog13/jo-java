@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chap09_interface.car&apos; to &apos;Car&apos;&#x0D;&#x0A;- Original project: &apos;chap09_interface&apos;&#x0D;&#x0A;- Original element: &apos;chap09_interface.car&apos;&#x0D;&#x0A;- Renamed element: &apos;chap09_interface.Car&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;car&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chap09_interface{car.java[car" matchStrategy="1" name="Car" qualified="false" references="true" similarDeclarations="false" stamp="1660785019281" textual="false" version="1.0"/>
+</session>

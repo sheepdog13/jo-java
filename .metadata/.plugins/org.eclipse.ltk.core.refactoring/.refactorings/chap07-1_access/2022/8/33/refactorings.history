@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chap07_1_access.Access&apos; to &apos;AccessTest&apos;&#x0D;&#x0A;- Original project: &apos;chap07-1_access&apos;&#x0D;&#x0A;- Original element: &apos;chap07_1_access.Access&apos;&#x0D;&#x0A;- Renamed element: &apos;chap07_1_access.AccessTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Access&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chap07_1_access{Access.java[Access" matchStrategy="1" name="AccessTest" qualified="false" references="true" similarDeclarations="false" stamp="1660115416014" textual="false" version="1.0"/>
+</session>

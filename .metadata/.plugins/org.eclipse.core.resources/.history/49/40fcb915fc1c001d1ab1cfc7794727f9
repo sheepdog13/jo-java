@@ -1,0 +1,14 @@
+package practice;
+
+public class Book {
+	String title;
+	String author;
+	int page;
+	boolean checkOut;
+	
+	static int bookCount = 0;
+	
+	static int getBookCount() {
+		return bookCount;
+	}
+}

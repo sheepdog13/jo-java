@@ -1,0 +1,15 @@
+package chaper08_abstract;
+
+public class Rectangle extends Shape {
+
+	@Override
+	public void draw() {
+		System.out.println("사각형을 그립니다");
+		}
+
+	@Override
+	public void print(String word) {
+		System.out.println("word를 출력합니다");
+		}
+	
+}

@@ -1,0 +1,12 @@
+package chaper08_polymo;
+
+public class polymoTest {
+
+	public static void main(String[] args) {
+		// 타입변환 : 다른 데이터 타입으로 변환하는 행위
+		// 클래스의 경우 : 자식타입은 부모타입으로 자동변환이 가능하다
+		Car myCar = new SportsCar();
+		System.out.println(myCar.color);
+	}
+
+}

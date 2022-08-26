@@ -1,0 +1,31 @@
+package practice;
+
+public class Book {
+	String title;
+	String author;
+	int page;
+	boolean checkOut;
+	
+	static int bookCount = 0;
+	
+	static int getBookCount() {
+		return bookCount;
+	}
+	
+	Book () {
+		title = "미정";
+		author = "미상";
+		page = 0;
+		checkOut = false;
+	}
+	Book (String title, String author, int page, boolean checkOut) {
+		this.title = title;
+		this.author = author;
+		this.page = page;
+		this.checkOut = checkOut;
+	}
+	
+	boolean getCheckOut() {
+		return this.checkOut;
+	}
+}

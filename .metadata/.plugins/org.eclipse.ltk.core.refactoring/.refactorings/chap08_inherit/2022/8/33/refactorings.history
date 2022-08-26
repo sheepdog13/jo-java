@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chap08_inherit.SportCar&apos; to &apos;SportsCar&apos;&#x0D;&#x0A;- Original project: &apos;chap08_inherit&apos;&#x0D;&#x0A;- Original element: &apos;chap08_inherit.SportCar&apos;&#x0D;&#x0A;- Renamed element: &apos;chap08_inherit.SportsCar&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SportCar&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chap08_inherit{SportCar.java[SportCar" matchStrategy="1" name="SportsCar" qualified="false" references="true" similarDeclarations="false" stamp="1660264814602" textual="false" version="1.0"/>
+</session>

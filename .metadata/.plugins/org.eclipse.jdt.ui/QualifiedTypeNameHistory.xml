@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.awt.Button"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="chap7_Object.NumCheck"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="chap7_Object.RandomUD"/>
+    <fullyQualifiedTypeName name="chap7_Object.RandomUD02"/>
+    <fullyQualifiedTypeName name="practice02.Book"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="test.Student"/>
+    <fullyQualifiedTypeName name="chap7_Object.Student"/>
+    <fullyQualifiedTypeName name="chap7_Object.MathNum"/>
+    <fullyQualifiedTypeName name="chap7_Object.Box"/>
+    <fullyQualifiedTypeName name="chap07_1_access.AccessA"/>
+    <fullyQualifiedTypeName name="chap07_1_accessB.AccessB"/>
+    <fullyQualifiedTypeName name="chap07_1_access.BankAcc"/>
+    <fullyQualifiedTypeName name="chap07_2_getset.Order"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="chap07_2_getset.AnimalCard"/>
+    <fullyQualifiedTypeName name="chap08_inherit.SportsCar"/>
+    <fullyQualifiedTypeName name="chap08_inherit.Worker"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="practice.BoardGame"/>
+    <fullyQualifiedTypeName name="chap08_inheritAnimal.AnimalCard"/>
+    <fullyQualifiedTypeName name="chaper08_polymo.SportsCar"/>
+    <fullyQualifiedTypeName name="chaper08_polymo.Worker"/>
+    <fullyQualifiedTypeName name="chaper08_polymo.People"/>
+    <fullyQualifiedTypeName name="chaper08_abstract.Shape"/>
+    <fullyQualifiedTypeName name="chaper08_abstract.Rectangle"/>
+    <fullyQualifiedTypeName name="chaper08_abstract.Circle"/>
+    <fullyQualifiedTypeName name="chaper08_abstract.Cat"/>
+    <fullyQualifiedTypeName name="chap09_interface.Comparable"/>
+    <fullyQualifiedTypeName name="chap09_interface.DisplayInterface"/>
+    <fullyQualifiedTypeName name="chap09_interface.Taxi"/>
+    <fullyQualifiedTypeName name="chap09_interface.CarOptionInterface"/>
+    <fullyQualifiedTypeName name="chap09_interface.Bus"/>
+    <fullyQualifiedTypeName name="chap09_interface.Truck"/>
+    <fullyQualifiedTypeName name="chap09_interface.CarInterface"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

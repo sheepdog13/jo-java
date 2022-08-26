@@ -1,0 +1,22 @@
+package chap10_exception;
+
+public class MethodThrow {
+	// 필드
+	private int x,y;
+	
+	// 생성자
+	public MethodThrow() {
+		x = 1;
+		y = 1;
+	}
+	public MethodThrow(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	
+	// 상위 메소드(객체를 통해 메소드를 사용할때 try.catch 사용)
+	// 에게 예외 처리를 요청하는 throw
+	public int division() {
+		return x/y;
+	}
+}

@@ -1,0 +1,16 @@
+package practice;
+
+public class Game {
+	private String gameTitle;
+	
+	Game(){
+		gameTitle = "미정";
+	}
+	Game(String gameTitle){
+		this.gameTitle = gameTitle;
+	}
+	
+	String getGameTitle() {
+		return this.gameTitle;
+	}
+}

@@ -1,0 +1,10 @@
+package chap09_interface;
+
+public class InterfaceTest {
+	public static void main(String[] args) {
+		// 인터페이스를 구현하여 작성한 클래스는 서브클래스와 동일하게 쓰인다
+		Truck t1 = new Truck();
+		t1.move();
+		t1.printCar();
+	}
+}

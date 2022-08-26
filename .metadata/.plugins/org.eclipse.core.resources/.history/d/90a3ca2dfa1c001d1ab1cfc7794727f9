@@ -1,0 +1,14 @@
+package practice;
+
+public class BoardGame extends Game {
+	private int peopleNum;
+	
+	BoardGame(){
+		this.peopleNum = 0;
+	}
+	BoardGame(int peopleNum){
+		this.peopleNum = peopleNum;
+	}
+	
+	void play
+}

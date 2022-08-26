@@ -1,0 +1,31 @@
+package chap09_interface;
+
+// 인터페이스의 내용을 가져오고 싶을때 extends 통해 가져올수있다
+// 인터페이스의 경우는 생성자가 없기때문에 여러개의 인터페이스를 상속받을 수 있다
+public interface CarOptionInterface extends CarInterface, Days{
+	public void carDrive();
+	
+	public default void RestDay(int day) {
+		String date;
+		switch (day) {
+		case 1:
+			date = "일요일";
+			break;
+		case 2:
+			date = "월요일";
+			break;
+		case 3:
+			date = "화요일";
+			break;
+		case 4:
+			date = "수요일";
+			break;
+		case 5:
+			date = "목요일";
+			break;
+		case 6:
+			date = "금요일";
+			break;
+		}
+	}
+}

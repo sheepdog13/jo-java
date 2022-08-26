@@ -1,0 +1,7 @@
+package chap09_interface;
+
+public class InterfaceTest {
+	public static void main(String[] args) {
+		Truck t1 = new Truck();
+	}
+}

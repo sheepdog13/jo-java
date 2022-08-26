@@ -1,0 +1,21 @@
+package practice;
+
+import java.util.Scanner;
+
+public class BookRental {
+	public static void main(String[] args) {
+		/*
+		 * 1. 전체 책 개수 확인 2. 전체 책정보 출력 3. 인덱스를 입력하여 책 대여/반납 4. 책 추가 0. 종료
+		 */
+		Scanner input = new Scanner(System.in);
+		int x;
+		Book book1 = new Book();
+		while (true) {
+			System.out.print("1. 전체 책 개수 확인 2. 전체 책정보 출력 3. 인덱스를 입력하여 책 대여/반납 4. 책 추가 0. 종료 :");
+			x = input.nextInt();
+			if(x == 1) {
+				System.out.println(Book.getBookCount());
+			}
+		}
+	}
+}
